@@ -1,9 +1,13 @@
+/* 이런 공통요소들이 위에 오지 않으면 캐스케이딩 순서에서 밀리기때문에 쓸수 없는 파일이 됨. */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
+
 /* 이렇게 요소, 화면별로 나누고 main 파일에 import해서 두는게 편집하기도 좋고 가독성도 좋은것 같음. */
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+
 /* Screens */
 @import "screens/login.css";
 

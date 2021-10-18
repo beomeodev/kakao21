@@ -1,0 +1,37 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    width: 100%;
+    /* 밑에 주석처리하고 요소검사해보면알수있는데 패딩때문에 끝에 부분이 사라져버림
+    패딩을 주기위해서 콘텐츠를 100%를 넘어선 화면에 배치해버리는데(100%+50px) 그걸 정상화하기위해서 border-box를 줌 
+    width 셋팅값에 패딩을 포함해써 맞추라는 의미임. 영상 번호 노마드 note에 메모해놨음.*/
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: #2e363e;
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}

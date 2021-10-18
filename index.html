@@ -34,9 +34,14 @@
                 phone number.
             </p>
         </header>
-        <form id="login-form">
-            <input type="text" placeholder="Email or Phone number" />
-            <input type="password" placeholder="Password" />
+        <!-- action은 클릭하면 어느 페이지로 보낼지 지정, get,post 방식은 유튜브 클론 강의에서 많이함-->
+        <form action="friends.html" method="get" id="login-form">
+            <input
+                name="ussername"
+                type="text"
+                placeholder="Email or Phone number"
+            />
+            <input name="password" type="password" placeholder="Password" />
             <input type="submit" value="Log In" />
             <input type="submit" value="Sign Up" />
             <a href="#">Find Kakao Account or Password</a>

@@ -31,12 +31,18 @@ body {
     margin: 0px 30px;
 }
 
+/* ingin-form id를 가지고 있는놈 아래의 input에 적용시켜줌 */
 #login-form input {
     border: none;
     padding: 15px 0px;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 25px;
+}
+
+/* border-bottom이 원래 위에 있었는데 submit type에는 이 라인을 주기 싫으니까 not type라고 씀
+아니면 type가 text, password에만 주도록 해도 되는데 이게 코드가 짧음 */
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
 }
 
@@ -46,4 +52,16 @@ body {
 
 #login-form input:focus {
     border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+#login-form a {
+    text-align: center;
+    font-size: 13px;
 }

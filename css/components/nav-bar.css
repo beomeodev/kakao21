@@ -23,15 +23,6 @@
 
 /* 6.13 강의 댓글 설명 다시 보고 이해하기. */
 .nav__notification {
-    background-color: tomato;
-    width: 26px;
-    height: 26px;
-    border-radius: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: 600;
     position: absolute;
     bottom: 15px;
     left: 15px;

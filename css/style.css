@@ -7,12 +7,15 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /* style.css에는 폰트같이 모든 스크린에 공통적용되는것만 작성 */
 
 body {
+    color: #2e363e;
     font-family: "Open Sans", sans-serif;
 }

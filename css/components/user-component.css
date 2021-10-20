@@ -55,3 +55,21 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__red-dot {
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.upper-red-dot {
+    right: 15px;
+    top: 40px;
+}
+
+.lower-red-dot {
+    right: -5px;
+    bottom: 30px;
+}

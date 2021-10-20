@@ -1,0 +1,122 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 아이콘 i도 폰트 취급해서 크기 키울때 font-size로 조절 */
+.find-icons__icon i {
+    font-size: 35px;
+}
+
+.find-icons__icon span {
+    margin-top: 18px;
+}
+
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    /* span은 inline이니까 block을 준다 이거 안 주면 text-align이 안 먹힘. 아직 잘 이해 안됨. */
+    display: block;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.open_chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.open-chat__header span {
+    opacity: 1;
+}
+
+.open-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-post__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.open-post__hashtags {
+    text-transform: uppercase;
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.open-post__members {
+    display: flex;
+    align-items: center;
+}
+
+.open-post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 15px;
+    border-right: var(--main-border);
+    padding-right: 10px;
+}
+
+.open-post__member-status {
+    padding-left: 10px;
+    color: #ffb0e0;
+}
+
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-post__heart-count {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.open-post:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+.open-post:last-child {
+    padding-top: 20px;
+    border-top: var(--main-border);
+}

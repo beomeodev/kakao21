@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/3a9e1d2752.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Settings - Kakao Clone</title>
+    </head>
+
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>22:36</span>
+            </div>
+            <div class="status-bar__column">
+                <span>80%</span>
+                <i class="fas fa-battery-three-quarters"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header>
+            <div class="alt-screen-header">
+                <i class="fas fa-chevron-left fa-lg"></i>
+                <h1 class="alt-screen-header__title">Settings</h1>
+                <div class="alt-screen-header__icons">
+                    <span><i class="fas fa-search fa-lg"></i></span>                      
+                    </span>
+            </div>
+        </header>
+
+        <!-- 이 화면 6.28강 보면 다르게 해결했는데 그게 더 나은것 같음 -->
+        <!-- 아무것도 없지만 column을 만들어서 justify하면 해결되는데 괜히 div 박스 하나 더 만들었음 -->
+        <main class="main-screen">
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <div class="setting__line">
+                        <div class="setting-box">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Notices</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="settings__setting">
+                    <div class="setting__line">
+                        <div class="setting-box">
+                            <i class="fas fa-flask"></i>
+                            <span>Kakao Lab</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="settings__setting">
+                    <div class="setting__line">
+                        <div class="setting-box">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Version</span>
+                        </div>  
+                        <span class="addtional__text">Latest Version</span>
+                    </div>
+                </li>
+            </ul>
+
+        </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                        <i class="far fa-user fa-2x"></i
+                    ></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <i class="far fa-comment fa-2x"></i
+                    ></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fas fa-search fa-2x"></i
+                    ></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <i class="fas fa-ellipsis-h fa-2x"><div class="user-component__red-dot lower-red-dot"></div></i
+                    ></a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+
+</html>

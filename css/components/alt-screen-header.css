@@ -1,0 +1,28 @@
+.alt-screen-header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.alt-screen-header__title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.alt-screen-header__icons span {
+    margin-left: 25px;
+}
+
+/* .alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+} */
+
+/* .fas fa-cog fa-lg {
+    position: relative;
+} */

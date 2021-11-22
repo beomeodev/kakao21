@@ -1,0 +1,171 @@
+img {
+    border-radius: 20px;
+}
+
+.rating .fas {
+    color: gold;
+}
+
+.rating .far {
+    color: thistle;
+    border: none;
+}
+
+body {
+    width: 30vw;
+    margin: 0;
+    position: relative;
+}
+
+header {
+    width: 30vw;
+    height: 6vh;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.page__title {
+    margin: -5px;
+}
+
+.search__bar {
+    background-color: white;
+}
+
+.search__bar form {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+input::placeholder {
+    padding-left: 30px;
+    opacity: 0.5;
+}
+
+form i {
+    opacity: 0.5;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+
+.bod {
+    padding-left: 20px;
+}
+
+.bod img {
+    width: 40%;
+    height: 40%;
+    margin-right: 20px;
+}
+
+.bod__article {
+    display: flex;
+}
+
+.today__book__title {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.today__book__author {
+    font-size: 20px;
+    opacity: 0.4;
+    margin-bottom: 15px;
+}
+
+.today__book__more__info {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.today__book__more__info button {
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.today__book__basket {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.today__book__basket i {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gold;
+    line-height: 40px;
+}
+
+.today__book__booknow {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.top__books {
+    padding-left: 20px;
+    margin: 40px 0;
+}
+
+.top__books__article {
+    display: flex;
+    overflow-x: scroll;
+    width: 32vw;
+}
+
+.top__books img {
+    width: 120px;
+    height: 170px;
+    margin: 10px 20px 20px 0;
+}
+
+.author {
+    padding-left: 20px;
+}
+
+.author img {
+    width: 40%;
+    height: 40%;
+}
+
+.author__article {
+    display: flex;
+}
+
+.author__bio {
+    margin-left: 20px;
+}
+
+.author__name {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.author__info {
+    opacity: 0.4;
+}

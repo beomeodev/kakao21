@@ -1,0 +1,130 @@
+.main__box {
+    width: 400px;
+    height: 800px;
+    border: 10px solid turquoise;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+.title {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.title .title__name {
+    font-weight: 1000;
+}
+
+.title__name {
+    display: inline;
+    text-align: center;
+    width: 100%;
+    padding: 0 30%;
+    box-sizing: border-box;
+}
+
+.song__cover {
+    display: flex;
+    align-items: center;
+}
+
+.song__img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song__img i {
+    font-size: 100px;
+}
+
+.song__info {
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+.song__title {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.interation__bar {
+    margin: 50px -20px 0 -20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.play__btn {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    border-bottom-width: 5px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.play__btn i {
+    padding-right: 10px;
+}
+
+.ddabong__btn,
+.plus__btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-bottom-width: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.list__song {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.color__box {
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.red__box {
+    background-color: red;
+}
+
+.pink__box {
+    background-color: pink;
+}
+
+.blue__box {
+    background-color: blue;
+}
+
+.green__box {
+    background-color: darkseagreen;
+}
+
+.another__song__info {
+    margin-left: 30px;
+}
+
+.another__song__tilte {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 2px 0;
+}
+
+.another__song__singer {
+    opacity: 0.7;
+}

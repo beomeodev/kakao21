@@ -81,6 +81,7 @@ summary,
 time,
 mark,
 audio,
+input,
 video {
     margin: 0;
     padding: 0;
@@ -90,6 +91,7 @@ video {
     vertical-align: baseline;
     text-decoration: none;
     color: inherit;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -104,6 +106,7 @@ menu,
 nav,
 section {
     display: block;
+    box-sizing: border-box;
 }
 body {
     line-height: 1;
